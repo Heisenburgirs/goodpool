@@ -25,7 +25,7 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
 
 const { connectors } = getDefaultWallets({
   appName: 'GoodPool',
-  projectId: '',
+  projectId: '', // walletconnect project-id goes here
   chains,
 });
 
